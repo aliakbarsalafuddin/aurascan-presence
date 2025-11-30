@@ -1,0 +1,18 @@
+name: aurasense
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - dlib
+  - cmake
+  - pip
+  - pip:
+    - face-recognition
+    - streamlit
+    - streamlit-webrtc
+    - streamlit-geolocation
+    - geopy
+    - av
+    - opencv-python-headless
+    - pandas
+    - numpy
